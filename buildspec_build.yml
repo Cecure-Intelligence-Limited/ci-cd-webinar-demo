@@ -1,0 +1,9 @@
+version: 0.2
+phases:
+  pre_build:
+    commands:
+      - echo "This is a simple buildspec file"
+ 
+  build:
+    commands:
+      - echo "I will be running my build commands here"
